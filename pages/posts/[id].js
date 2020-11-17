@@ -20,6 +20,10 @@ export default function Post({ postData }) {
     </Layout>
   )
 }
+
+
+//以下はサーバーサイド側で動いている
+
 //パスを取得
 export async function getStaticPaths() {
   const paths = getAllPostIds()
